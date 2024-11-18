@@ -1,0 +1,55 @@
+body{
+    background-color:hsl(47, 88%, 63%) ;
+}
+html{
+    font-size: 12px;
+}
+img{
+    border-radius: 12px;
+    width:100%
+}
+#container{
+    background-color:hsl(0, 0%, 100%);
+    padding:1.8rem;
+    width:20%;
+    border-radius: 12px;
+    margin: auto;
+    margin-top: 9rem;
+    border-bottom-right-radius: 12px;
+    border:1px solid black;
+    box-shadow: 12px 17px 15px 0;
+}
+#image{
+    width:7%;
+}
+button{
+    background-color:hsl(47, 88%, 63%);
+    color:black;
+    border-style: none;
+    border-radius: 5px;
+    padding: 0.5rem;  
+}
+#hoverheading:hover{
+    color:hsl(47, 88%, 63%) ;
+    cursor: pointer;
+}
+button:hover{
+    background-color: black;
+    color:beige;
+}
+h2,h4,p{
+    font-family: "Figtree", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+p{
+    color:hsl(0, 0%, 42%);
+}
+strong{
+    color:black;
+}
+@media screen and (max-width:375px){
+    #container{
+        width:75%;
+    }
+}
